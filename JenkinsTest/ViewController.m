@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view.
     NSLog(@"c横岗");
     self.view.backgroundColor = [UIColor redColor];
+    NSLog(@"测试怎么提交的");
 }
 
 
