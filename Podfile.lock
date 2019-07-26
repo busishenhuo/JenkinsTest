@@ -1,0 +1,18 @@
+PODS:
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+
+DEPENDENCIES:
+  - MagicalRecord (~> 2.3.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MagicalRecord
+
+SPEC CHECKSUMS:
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+
+PODFILE CHECKSUM: 492024da514e51e675e2bf9c3ff024c06dbba280
+
+COCOAPODS: 1.7.5

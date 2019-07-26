@@ -21,7 +21,7 @@
     self.view.backgroundColor = [UIColor redColor];
     NSLog(@"测试怎么提交的");
     NSLog(@"再测试一下");
-    NSLog(@"再测试一下1");
+    NSLog(@"再测试一下13");
 }
 
 
