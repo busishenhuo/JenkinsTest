@@ -17,7 +17,7 @@
 		74626BEC22E8136A00689350 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74626BEB22E8136A00689350 /* main.m */; };
 		74626BF622E8136A00689350 /* JenkinsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74626BF522E8136A00689350 /* JenkinsTestTests.m */; };
 		74626C0122E8136A00689350 /* JenkinsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74626C0022E8136A00689350 /* JenkinsTestUITests.m */; };
-		7469F28122E9A764004D9B12 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7469F28022E9A764004D9B12 /* ExportOptions.plist */; };
+		7462FE1322EB0618001AEB52 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7462FE1222EB0618001AEB52 /* ExportOptions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		74626BFC22E8136A00689350 /* JenkinsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JenkinsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74626C0022E8136A00689350 /* JenkinsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JenkinsTestUITests.m; sourceTree = "<group>"; };
 		74626C0222E8136A00689350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7469F28022E9A764004D9B12 /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
+		7462FE1222EB0618001AEB52 /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
 		E46F4BB85511F04A5A6EA736 /* Pods-JenkinsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsTest.debug.xcconfig"; path = "Target Support Files/Pods-JenkinsTest/Pods-JenkinsTest.debug.xcconfig"; sourceTree = "<group>"; };
 		FF8E9568D7AE42CF26FC850A /* Pods-JenkinsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JenkinsTest.release.xcconfig"; path = "Target Support Files/Pods-JenkinsTest/Pods-JenkinsTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,6 +98,7 @@
 		74626BCD22E8135E00689350 = {
 			isa = PBXGroup;
 			children = (
+				7462FE1222EB0618001AEB52 /* ExportOptions.plist */,
 				74626BD822E8135E00689350 /* JenkinsTest */,
 				74626BF422E8136A00689350 /* JenkinsTestTests */,
 				74626BFF22E8136A00689350 /* JenkinsTestUITests */,
@@ -120,7 +121,6 @@
 		74626BD822E8135E00689350 /* JenkinsTest */ = {
 			isa = PBXGroup;
 			children = (
-				7469F28022E9A764004D9B12 /* ExportOptions.plist */,
 				74626BD922E8135E00689350 /* AppDelegate.h */,
 				74626BDA22E8135E00689350 /* AppDelegate.m */,
 				74626BDC22E8135E00689350 /* ViewController.h */,
@@ -159,7 +159,6 @@
 				E46F4BB85511F04A5A6EA736 /* Pods-JenkinsTest.debug.xcconfig */,
 				FF8E9568D7AE42CF26FC850A /* Pods-JenkinsTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -270,7 +269,7 @@
 				74626BE922E8136A00689350 /* LaunchScreen.storyboard in Resources */,
 				74626BE622E8136A00689350 /* Assets.xcassets in Resources */,
 				74626BE122E8135E00689350 /* Main.storyboard in Resources */,
-				7469F28122E9A764004D9B12 /* ExportOptions.plist in Resources */,
+				7462FE1322EB0618001AEB52 /* ExportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
